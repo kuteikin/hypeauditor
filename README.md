@@ -1,5 +1,7 @@
 # Тестовое задание для hypeauditor
 
+**Сomposer и PHPUnit я вынес за скобки. Тут толко мой код. Версия PHP 5.6.4**
+
 ### Задача 1
 
 _Вам поступила задача:_
@@ -91,7 +93,7 @@ _Дан текстовый файл размером 2ГБ. Напишите к�
 Сам скрипт лежит тут **/src/task3/FileIterator.php** тесты тут **/tests/FileIteratorTest.php**
 
 ```php
-$iterator = new FileIterator('test.xml');
+$iterator = new \Hypeauditor\FileIterator('test.xml');
 
 $iterator->valid();
 $iterator->next();
